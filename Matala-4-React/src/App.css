@@ -25,10 +25,6 @@
   color: var(--primary-color);
 }
 
-.navbar a.active {
-  color: var(--primary-color);
-  font-weight: bold;
-}
 
 .page-content {
   max-width: 800px;

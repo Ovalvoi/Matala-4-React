@@ -7,21 +7,21 @@ const Navbar = () => {
       <NavLink 
         to="/" 
         end
-        className={({ isActive }) => isActive ? 'active' : ''}
+        style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}
       >
         Home
       </NavLink>
 
       <NavLink 
         to="/about" 
-        className={({ isActive }) => isActive ? 'active' : ''}
+        style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}
       >
         About
       </NavLink>
 
       <NavLink 
         to="/characters" 
-        className={({ isActive }) => isActive ? 'active' : ''}
+        style={({ isActive }) => ({ color: isActive ? 'red' : 'black' })}
       >
         Characters
       </NavLink>
